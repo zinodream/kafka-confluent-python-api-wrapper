@@ -33,7 +33,7 @@ kafka producer sample for how non transaction works
 
 
 # kafka_config.xml format
-
+<pre><code>
 <!-- basic config setting -->
 <config>
 	<!-- log setting -->
@@ -55,7 +55,7 @@ kafka producer sample for how non transaction works
 		<interface intf_id="TEST" topic_name="test"/>
 	</interfaces>
 </config>
-
+</pre></code>
 <!-- advanced config setting for connection/kafka -->
 	<connection>
 		<kafka bootstrap.servers="10.10.19.99:9092"

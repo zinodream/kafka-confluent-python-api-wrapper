@@ -1,5 +1,12 @@
 # This is a Confluent Kafka Producer Wrapper Python script.
 
+# Install
+	$ pip install confluent-kafka
+	$ pip install random-string
+	$ pip install pytz
+
+# Usage
+
 kafka producer sample for how transaction works.
 The transactional producer operates on top of the idempotent producer, and provides full exactly-once semantics (EOS)
     for Apache Kafka when used with the transaction aware consumer (isolation.level=read_committed).
